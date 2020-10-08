@@ -1,0 +1,9 @@
+[build]
+	command="npm install"
+	functions = "functions"
+	publish="dist"
+    	NODE_ENV = "14.13.0"
+[[redirects]]
+	from="/update"
+	to="/.netlify/functions/update"
+	status=200
